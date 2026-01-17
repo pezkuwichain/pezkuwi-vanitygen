@@ -14,8 +14,40 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./types": {
+      "types": "./types.d.ts",
+      "default": "./types.js"
+    },
+    "./generator": {
+      "types": "./generator.d.ts",
+      "default": "./generator.js"
+    },
+    "./regex": {
+      "types": "./regex.d.ts",
+      "default": "./regex.js"
+    },
+    "./sort": {
+      "types": "./sort.d.ts",
+      "default": "./sort.js"
+    },
+    "./calculate": {
+      "types": "./calculate.d.ts",
+      "default": "./calculate.js"
+    },
+    "./generate": {
+      "types": "./generate.d.ts",
+      "default": "./generate.js"
+    },
+    "./package.json": "./package.json"
+  },
   "bin": {
     "pezkuwi-vanitygen": "./runcli.mjs"
   },
