@@ -1,16 +1,16 @@
 {
   "author": "Pezkuwichain Team (forked from Jaco Greeff <jacogr@gmail.com>)",
-  "bugs": "https://github.com/pezkuwichain/pezkuwi-vanitygen/issues",
+  "bugs": "https://git.pezkuwichain.io/pezkuwichain/pezkuwi-vanitygen/issues",
   "description": "A vanity address generator for Pezkuwichain",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/pezkuwichain/pezkuwi-vanitygen#readme",
+  "homepage": "https://git.pezkuwichain.io/pezkuwichain/pezkuwi-vanitygen#readme",
   "license": "Apache-2.0",
   "name": "@pezkuwi/vanitygen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pezkuwichain/pezkuwi-vanitygen.git"
+    "url": "https://git.pezkuwichain.io/pezkuwichain/pezkuwi-vanitygen.git"
   },
   "sideEffects": false,
   "type": "module",
